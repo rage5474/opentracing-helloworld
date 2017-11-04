@@ -1,9 +1,11 @@
-## Simple example opentracing with jaeger example 
+## Simple opentracing example with jaeger
+This example shows how a client and a server trace can be connected.
 
-### Prerequities
+### Prerequisites
 - Install gradle version > 4.2.1
 - Install docker version > 1.12.6
 - Install Eclipse version > 4.6.2
+- Install browser
 
 ### Build and import project
 - Clone repository with 'git clone https://github.com/rage5474/opentracing-helloworld.git'
