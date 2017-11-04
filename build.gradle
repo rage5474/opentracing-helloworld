@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	  compile 'com.uber.jaeger:jaeger-core:0.21.0'
+	  compile 'io.opentracing:opentracing-util:0.30.0'
+	  compile 'org.slf4j:slf4j-simple:1.7.25'
+	  compile 'org.slf4j:slf4j-api:1.7.25'
+}
